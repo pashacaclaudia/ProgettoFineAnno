@@ -32,3 +32,4 @@
     <div *ngIf="!myForm.valid" class="alert alert-danger">Il form non è valido</div>
     <button class="bg-primary text-white btn btn-block mb-4" type="submit" [disabled]="!myForm.valid">PRENOTA</button>
   </form>
+   <app-view-utenti [utenti]="utenti"></app-view-utenti>
