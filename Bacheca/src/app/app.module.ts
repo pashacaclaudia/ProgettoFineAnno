@@ -5,11 +5,13 @@ import {  FormsModule,ReactiveFormsModule} from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { ViewUtentiComponent } from './view-utenti/view-utenti.component';
+import { BachecaCommentiComponent } from './bacheca-commenti/bacheca-commenti.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ViewUtentiComponent
+    ViewUtentiComponent,
+    BachecaCommentiComponent
   ],
   imports: [
     BrowserModule, FormsModule, ReactiveFormsModule, NgbModule ],
